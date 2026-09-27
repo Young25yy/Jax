@@ -1,0 +1,157 @@
+# ============================================================
+#  Jax — Unity 工程 .gitignore
+#  本仓库只纳入代码与配置，不纳入任何美术/音频等资源文件。
+#  注意：排除资源目录时同时排除其 .meta，避免留下孤儿 meta。
+# ============================================================
+
+# ---------- Unity 生成目录 / 缓存 ----------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Bb]undles/
+/[Hh]ybridCLRData/
+
+# ---------- IDE / 解决方案文件（由 Unity 重新生成） ----------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+
+# ---------- 构建产物 ----------
+*.apk
+*.aab
+*.app
+*.unitypackage
+sysinfo.txt
+crashlytics-build.properties
+
+# ---------- YooAsset 热更打包产物 ----------
+/Assets/StreamingAssets/yoo
+/Assets/StreamingAssets/yoo.meta
+
+# ---------- 第三方 Asset Store 资源包 ----------
+/Assets/FantasyEnvironmentPack
+/Assets/FantasyEnvironmentPack.meta
+/Assets/Free Fantasy Music Pack
+/Assets/Free Fantasy Music Pack.meta
+/Assets/Free Pack
+/Assets/Free Pack.meta
+/Assets/GUI Kit The Stone
+/Assets/GUI Kit The Stone.meta
+/Assets/MundusSkybox
+/Assets/MundusSkybox.meta
+/Assets/Small Sound Kit
+/Assets/Small Sound Kit.meta
+/Assets/Xiaoyi_Traditional_Music_Pack
+/Assets/Xiaoyi_Traditional_Music_Pack.meta
+/Assets/TutorialInfo
+/Assets/TutorialInfo.meta
+/Assets/_TerrainAutoUpgrade
+/Assets/_TerrainAutoUpgrade.meta
+/Assets/TextMesh Pro
+/Assets/TextMesh Pro.meta
+
+# ---------- 项目内资源目录（连同其 .meta 一并排除） ----------
+/Assets/HotUpdate/Audio
+/Assets/HotUpdate/Audio.meta
+/Assets/HotUpdate/DLLs
+/Assets/HotUpdate/DLLs.meta
+/Assets/HotUpdate/Materials
+/Assets/HotUpdate/Materials.meta
+/Assets/HotUpdate/Models
+/Assets/HotUpdate/Models.meta
+/Assets/HotUpdate/Prefabs
+/Assets/HotUpdate/Prefabs.meta
+/Assets/HotUpdate/Scenes
+/Assets/HotUpdate/Scenes.meta
+/Assets/HotUpdate/Terrains
+/Assets/HotUpdate/Terrains.meta
+/Assets/HotUpdate/Textures
+/Assets/HotUpdate/Textures.meta
+/Assets/HotUpdate/UISpirits
+/Assets/HotUpdate/UISpirits.meta
+/Assets/HotUpdate/Video
+/Assets/HotUpdate/Video.meta
+
+/Assets/Native/Audio
+/Assets/Native/Audio.meta
+/Assets/Native/Fonts
+/Assets/Native/Fonts.meta
+/Assets/Native/Materials
+/Assets/Native/Materials.meta
+/Assets/Native/Prefabs
+/Assets/Native/Prefabs.meta
+/Assets/Native/Scenes
+/Assets/Native/Scenes.meta
+/Assets/Native/Textures
+/Assets/Native/Textures.meta
+/Assets/Native/UISpirits
+/Assets/Native/UISpirits.meta
+/Assets/Native/Video
+/Assets/Native/Video.meta
+
+# ---------- 资源后缀兜底（含对应 .meta） ----------
+*.wav
+*.wav.meta
+*.mp3
+*.mp3.meta
+*.ogg
+*.ogg.meta
+*.aiff
+*.aiff.meta
+*.png
+*.png.meta
+*.jpg
+*.jpg.meta
+*.jpeg
+*.jpeg.meta
+*.tga
+*.tga.meta
+*.psd
+*.psd.meta
+*.tif
+*.tif.meta
+*.exr
+*.exr.meta
+*.hdr
+*.hdr.meta
+*.fbx
+*.fbx.meta
+*.glb
+*.glb.meta
+*.obj
+*.obj.meta
+*.blend
+*.blend.meta
+*.dae
+*.dae.meta
+*.anim
+*.anim.meta
+*.mp4
+*.mp4.meta
+*.mov
+*.mov.meta
+*.webm
+*.webm.meta
+*.ttf
+*.ttf.meta
+*.otf
+*.otf.meta
