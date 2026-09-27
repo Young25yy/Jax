@@ -23,6 +23,7 @@ public class GamePanel : BasePanel
     {
         EventCenter.Instance.RemoveListener<float>(EventType.EnemyHPChange, EnemyHPChange);
         EventCenter.Instance.RemoveListener<float>(EventType.PlayerHPChange, PlayerHPChange);
+        EventCenter.Instance.RemoveListener<SkillCDData>(EventType.SkillCDChange, SkillDataChange);
     }
     void EnemyHPChange(float value)
     {

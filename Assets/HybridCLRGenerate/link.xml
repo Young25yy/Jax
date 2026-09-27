@@ -14,7 +14,6 @@
     <type fullname="Cysharp.Threading.Tasks.PlayerLoopTiming" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask/Awaiter" preserve="all" />
-    <type fullname="Cysharp.Threading.Tasks.UniTaskCancellationExtensions" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask`1" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask`1/Awaiter" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.YieldAwaitable" preserve="all" />

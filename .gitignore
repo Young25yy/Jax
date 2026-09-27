@@ -47,6 +47,12 @@ crashlytics-build.properties
 /Assets/StreamingAssets/yoo
 /Assets/StreamingAssets/yoo.meta
 
+# ---------- 含明文账号密码的本地存档配置（严禁入库） ----------
+/Assets/StreamingAssets/Configs/LoginData.json
+/Assets/StreamingAssets/Configs/LoginData.json.meta
+/Assets/StreamingAssets/Configs/PlayerDatas.json
+/Assets/StreamingAssets/Configs/PlayerDatas.json.meta
+
 # ---------- 第三方 Asset Store 资源包 ----------
 /Assets/FantasyEnvironmentPack
 /Assets/FantasyEnvironmentPack.meta

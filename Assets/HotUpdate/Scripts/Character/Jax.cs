@@ -260,8 +260,11 @@ public class Jax : Character
     {
         isWin = true;
         animator.SetBool("isWin", true);
-        GameDataManager.Instance.nowPlayerData.passedLevelsId.Add(GameDataManager.Instance.nowLevelData.levelId);
-        GameDataManager.Instance.SavePlayerDatas();
+        if (!GameDataManager.Instance.nowPlayerData.passedLevelsId.Contains(GameDataManager.Instance.nowLevelData.levelId))
+        {
+            GameDataManager.Instance.nowPlayerData.passedLevelsId.Add(GameDataManager.Instance.nowLevelData.levelId);
+            GameDataManager.Instance.SavePlayerDatas();
+        }
         await UniTask.WaitForSeconds(7.5f);
         UIManager.Instance.HidePanel<GamePanel>();
         var package = YooAssets.GetPackage("DefaultPackage");

@@ -133,7 +133,6 @@ public class Volibear : Enemy
         BanCast();
         BanAttack();
         await AudioManager.Instance.PlaySound("Volibear_T");
-        var token = this.GetCancellationTokenOnDestroy();
         ScaleTo(Vector3.one * 2f);
         nowAttack = data.attack * 2f;
         nowDefense = data.defense * 2f;

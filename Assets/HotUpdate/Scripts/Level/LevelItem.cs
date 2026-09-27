@@ -35,7 +35,7 @@ public class LevelItem : MonoBehaviour
     {
         nameText.text = levelData.levelName;
         backImage.sprite = levelData.levelSprite;
-        if(GameDataManager.Instance.nowPlayerData.passedLevelsId.Find(levelId => levelId == levelData.levelId) != default(int))
+        if(GameDataManager.Instance.nowPlayerData.passedLevelsId.Contains(levelData.levelId))
         {
             passedImage.gameObject.SetActive(true);
         }
